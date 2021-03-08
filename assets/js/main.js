@@ -16,7 +16,7 @@ for (var i = 1; i <= 100; i++) {
     console.log("Buzz");
     document.getElementById('listaNumeri').innerHTML += "<li>" + "Buzz" + "</li>";
     // altrimenti
-  }else {
+  } else {
     // stampo il numero
     console.log(i);
     document.getElementById('listaNumeri').innerHTML += "<li>" + [i] + "</li>";
